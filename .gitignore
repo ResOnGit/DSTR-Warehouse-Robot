@@ -1,0 +1,20 @@
+# hello yall
+#can add if want but this is for essentials so it dont fw the repo 
+
+
+# Compiled object files and executables
+*.o
+*.out
+*.exe
+*.obj
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific folders (VSCode, Visual Studio, etc.)
+.vscode/
+.vs/
+.idea/
+*.suo
+*.user
