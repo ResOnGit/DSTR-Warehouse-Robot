@@ -7,6 +7,7 @@
 #include "task2_079957.hpp"
 #include "task3_nav.hpp"
 #include "task4.hpp"
+#include "task4_menu.hpp"
 
 using namespace std;
 using namespace task4_module;
@@ -93,9 +94,7 @@ int main() {
             orderQueue.displayQueue();
         }
         else if (choice == 4) {
-            // Keep your task4 menu logic here or separate it out as needed!
-            cout << "Inventory Management is active.\n";
-            bst.displaySortedByID(); // Example quick-display
+            task4_menu::showMainMenu();
         }
         else if (choice == 5) {
             runRobotAssignmentMenu();
